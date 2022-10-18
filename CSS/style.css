@@ -103,7 +103,9 @@ section {
     .sikrer-belayer{
         max-width: 50%;
         height: auto;
+        width: auto;
         border-radius: 50px;
+        margin: 2rem;
     }
 }
 
@@ -132,6 +134,7 @@ section {
     .jannicke-klatrer-bilde {
         max-width: 50%;
         height: auto;
+        width: auto;
         padding: 1rem 1rem; 
         display: flex;
         margin: 1rem;
