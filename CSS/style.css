@@ -1,11 +1,12 @@
-
 html {
-    font-size: 16px; /* 1rem i mobil mobil versjon*/
+    font-size: 16px;
+    /* 1rem i mobil mobil versjon*/
 }
 
 @media screen and (min-width: 700px) {
     html {
-        font-size: 20px; /* 1 rem i desktop verjon*/
+        font-size: 20px;
+        /* 1 rem i desktop verjon*/
     }
 }
 
@@ -18,13 +19,13 @@ body {
 
 header {
     background-color: rgb(187, 243, 245);
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     height: auto;
     align-items: center;
     padding-bottom: 1rem;
-    
+
 }
 
 .climbing-logo {
@@ -42,11 +43,11 @@ header {
 }
 
 header nav {
-    display:flex;
+    display: flex;
 }
 
 @media screen and (min-width: 700px) {
-    header nav{
+    header nav {
         display: block;
     }
 }
@@ -54,8 +55,9 @@ header nav {
 main {
     background-image: url(../assets/fjell-bakgrunn-blå.jpg);
     background-image: no-repeat;
-    background-size :cover;
+    background-size: cover;
     background-position: center;
+    width: fit-content;
 }
 
 ul {
@@ -66,22 +68,35 @@ ul {
 }
 
 li {
-display: inline;
-margin-inline: 3rem;
-margin-bottom: 2rem;
-padding-bottom: 2rem;
+    display: inline;
+    margin-inline: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
-ul :hover { 
+ul :hover {
     color: black;
     text-decoration: underline;
 }
 
-.box-1 {
-    display: flex;
-    height: auto;
-    max-width: 100%;
-    align-content: center;    
+@media screen and (min-width: 700px) {
+
+    .box-1 {
+        display: flex;
+        height: auto;
+        max-width: 100%;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .box-1 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+        align-content: center;
+    }
 }
 
 section {
@@ -92,6 +107,7 @@ section {
     .sikrer-belayer {
         max-width: 50%;
         height: auto;
+        width: auto;
         padding: 1rem 1rem 1rem 1rem;
         display: flex;
         border-radius: 50px;
@@ -99,11 +115,11 @@ section {
 }
 
 @media screen and (max-width: 700px) {
-    .sikrer-belayer{
-        max-width: 50%;
+    .sikrer-belayer {
+        max-width: 100%;
         height: auto;
         width: auto;
-        border-radius: 50px;
+        border-radius: 1rem;
         margin: 2rem;
     }
 }
@@ -129,24 +145,25 @@ section {
         overflow: hidden;
     }
 }
-@media screen and (min-width: 700px){
+
+@media screen and (min-width: 700px) {
     .jannicke-klatrer-bilde {
         max-width: 50%;
         height: auto;
         width: auto;
-        padding: 1rem 1rem; 
+        padding: 1rem 1rem;
         display: flex;
         margin: 1rem;
         border-radius: 50px;
-    
+
     }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
     .jannicke-klatrer-bilde {
         max-width: 50%;
         height: auto;
-        padding: 1rem 1rem; 
+        padding: 1rem 1rem;
         display: flex;
         margin: 1rem;
         border-radius: 50px;
@@ -168,7 +185,7 @@ section {
     height: auto;
     background-image: url('../assets/Fjell-bakrunn.jpg');
     background-image: no-repeat;
-    background-size :cover;
+    background-size: cover;
     background-position: center;
     background-color: #655F6F;
     justify-content: space-between;
@@ -177,8 +194,8 @@ section {
 
 button :hover {
     padding: 1rem;
-    align-items:center;
-    display:inline-flex;
+    align-items: center;
+    display: inline-flex;
     border-radius: 50px;
     border-color: black;
     justify-content: space-between;
