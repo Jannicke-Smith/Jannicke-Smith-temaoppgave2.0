@@ -178,9 +178,7 @@ ul :hover {
         max-width: 100%;
         height: auto;
         width: auto;
-        padding: 1rem 1rem;
         display: flex;
-        margin: 2rem;
         border-radius: 1rem;
     }
 }
