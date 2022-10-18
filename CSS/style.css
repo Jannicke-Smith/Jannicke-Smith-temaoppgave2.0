@@ -28,7 +28,6 @@ header {
 }
 
 .climbing-logo {
-    display: fixed;
     height: auto;
     width: auto;
 }
@@ -91,6 +90,10 @@ ul :hover {
     width: 100%;
     align-content: center;
     
+}
+
+section {
+    width: 50%;
 }
 
 .sikrer-belayer {
