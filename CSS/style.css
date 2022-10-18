@@ -78,14 +78,6 @@ ul :hover {
     text-decoration: underline;
 }
 
-
-@media screen and (max-width: 300px) {
-    .sikrer-belayer {
-        max-width: 50%;
-        height: auto;
-    }
-}
-
 .box-1 {
     display: flex;
     height: auto;
@@ -98,12 +90,13 @@ article {
     width: 50%;
 }
 
-.sikrer-belayer {
-    width: 50%;
-    height: 50%;
-    padding: 1rem 1rem 1rem 1rem;
-    display: flex;
-    border-radius: 50px;
+@media screen and (min-width: 700px) {
+    .sikrer-belayer {
+        max-width: 50%;
+        height: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -123,15 +116,28 @@ article {
     
 }
 
-.jannicke-klatrer-bilde {
-    width: 50%;
-    height: 50%;
-    padding: 1rem 1rem; 
-    display: flex;
-    margin: 1rem;
-    border-radius: 50px;
-
+@media screen and (min-width: 700px){
+    .jannicke-klatrer-bilde {
+        max-width: 50%;
+        height: auto;
+        padding: 1rem 1rem; 
+        display: flex;
+        margin: 1rem;
+        border-radius: 50px;
+    
+    }
 }
+
+@media screen and (max-width: 700px){
+    .jannicke-klatrer-bilde {
+        max-width: 50%;
+        height: auto;
+        padding: 1rem 1rem; 
+        display: flex;
+        margin: 1rem;
+    }
+}
+
 
 .box3 {
     position: center;
