@@ -64,7 +64,6 @@ ul {
     color: black;
     list-style: none;
     display: inline;
-
 }
 
 li {
@@ -73,6 +72,16 @@ li {
     margin-bottom: 2rem;
     padding-bottom: 2rem;
 }
+
+
+header nav ul li {
+    color: #000;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.3s;
+}
+
 
 ul :hover {
     color: black;
