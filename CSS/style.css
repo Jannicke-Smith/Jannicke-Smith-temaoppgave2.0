@@ -239,12 +239,13 @@ ul :hover {
     background-image: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #655F6F;
     justify-content: space-between;
     position: center;
 }
 
-button :hover {
+.button-footer {
+    height: fit-content;
+    width: fit-content;
     padding: 1rem;
     align-items: center;
     display: inline-flex;
