@@ -33,6 +33,13 @@ header {
     width: auto;
 }
 
+@media screen and (max-widht: 700px) {
+    .climbing-logo {
+        width: 350px;
+    }
+
+}
+
 header nav {
     display:flex;
 }
@@ -73,7 +80,9 @@ ul :hover {
 
 @media screen and (max-width: 300px) {
     .sikrer-belayer {
-        display:block 
+        display:block;
+        width: 50%;
+        height: auto;
     }
 }
 
