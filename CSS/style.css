@@ -175,10 +175,11 @@ ul :hover {
     .jannicke-klatrer-bilde {
         max-width: 100%;
         height: auto;
+        width: auto;
         padding: 1rem 1rem;
         display: flex;
-        margin: 1rem;
-        border-radius: 50px;
+        margin: 2rem;
+        border-radius: 1rem;
     }
 }
 
