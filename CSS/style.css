@@ -7,8 +7,8 @@ html {
     html {
         font-size: 20px; /* 1 rem i desktop verjon*/
     }
-    
 }
+
 
 body {
     background-color: cadetblue;
@@ -56,7 +56,6 @@ main {
     background-image: no-repeat;
     background-size :cover;
     background-position: center;
-    width: fit-content;
 }
 
 ul {
