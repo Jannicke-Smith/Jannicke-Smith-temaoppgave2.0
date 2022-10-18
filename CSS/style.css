@@ -81,7 +81,7 @@ ul :hover {
 
 @media screen and (max-width: 300px) {
     .sikrer-belayer {
-        width: 50%;
+        max-width: 50%;
         height: auto;
     }
 }
