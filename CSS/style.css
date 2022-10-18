@@ -35,6 +35,12 @@ header {
     max-height: 100%;
 }
 
+@media screen and (min-width: 700px) {
+    .hamburgermeny {
+        display: none;
+    }
+}
+
 @media screen and (max-widht: 700px) {
     .climbing-logo {
         width: 350px;
