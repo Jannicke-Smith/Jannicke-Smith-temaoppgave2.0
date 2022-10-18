@@ -41,6 +41,7 @@ header nav {
     header nav{
         display: block;
     }
+     }
 
 main {
     background-image: url(../assets/fjell-bakgrunn-blå.jpg);
@@ -70,8 +71,8 @@ ul :hover {
 }
 
 
-@media screen and (min-width: 700px) {
-    header-nav {
+@media screen and (max-width: 300px) {
+    .sikrer-belayer {
         display:block 
     }
 }
