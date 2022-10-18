@@ -173,7 +173,7 @@ ul :hover {
 
 @media screen and (max-width: 700px) {
     .jannicke-klatrer-bilde {
-        max-width: 50%;
+        max-width: 100%;
         height: auto;
         padding: 1rem 1rem;
         display: flex;
