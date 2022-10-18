@@ -96,6 +96,8 @@ ul :hover {
         height: auto;
         max-width: 100%;
         align-content: center;
+        padding: 1rem;
+        margin: 1rem;
     }
 }
 
@@ -140,7 +142,7 @@ ul :hover {
         max-width: 100%;
         padding: 1rem;
         align-content: center;
-        margin: 2rem;
+        margin: 1rem;
         overflow: hidden;
     }
     
