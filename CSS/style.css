@@ -90,8 +90,11 @@ main {
     background-size: cover;
     background-position: center;
     width: fit-content;
+    height: fit-content;
 }
 
+
+    
 ul {
     color: black;
     list-style: none;
@@ -126,6 +129,7 @@ ul :hover {
         height: auto;
         max-width: 100%;
         align-content: center;
+        padding: 1rem;
     }
 }
 
@@ -194,7 +198,6 @@ ul :hover {
         max-width: 100%;
         padding: 1rem;
         align-content: center;
-        margin: 2rem;
         overflow: hidden;
     }
 }
@@ -243,14 +246,17 @@ ul :hover {
     position: center;
 }
 
-.button-footer {
+div .button-footer {
     height: fit-content;
     width: fit-content;
     padding: 1rem;
+    margin: 1rem;
     align-items: center;
     display: inline-flex;
-    border-radius: 50px;
+    border-radius: 25px;
     border-color: black;
     justify-content: space-between;
     position: center;
+    background-color: cadetblue;
+    color: #ffffff;
 }
