@@ -165,6 +165,7 @@ ul :hover {
         padding: 1rem 1rem 1rem 1rem;
         display: flex;
         border-radius: 50px;
+        object-fit: cover;
     }
 }
 
@@ -211,7 +212,7 @@ ul :hover {
         display: flex;
         margin: 1rem;
         border-radius: 50px;
-
+        object-fit: cover;
     }
 }
 
@@ -245,6 +246,10 @@ ul :hover {
     justify-content: space-between;
     position: center;
     display: inline-flex;
+}
+
+.margin-auto-footer {
+    margin: auto;
 }
 
 @media screen and (max-width: 700px) {
